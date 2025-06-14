@@ -74,24 +74,6 @@
 
 - Отключите функцию **TUN** (Tunneling) в настройках вашего VPN
 
-### При удалении с помощью [**`service.bat`**](./service.bat), WinDivert остается в службах
-
-1. Узнайте название службы с помощью команды, в командной строке Windows (Win+R, `cmd`):
-
-```cmd
-driverquery | find "Divert"
-```
-
-2. Остановите и удалите службу командами:
-
-```cmd
-sc stop {название, которые вы узнали в шаге 1}
-
-sc delete {название, которые вы узнали в шаге 1}
-```
-
-### Не нашли своей проблемы
-
 * Создайте её [тут](https://github.com/Flowseal/zapret-discord-youtube/issues)
 
 ## 🗒️Добавление адресов прочих заблокированных ресурсов
@@ -105,24 +87,10 @@ sc delete {название, которые вы узнали в шаге 1}
 
 ## ⭐Поддержка проекта
 
-Вы можете поддержать проект, поставив :star: этому репозиторию (сверху справа этой страницы)
+Вы можете поддержать проект, поставив :star: этому форку (сверху справа этой страницы)
 
 Также, вы можете материально поддержать разработчика zapret [тут](https://github.com/bol-van/zapret/issues/590#issuecomment-2408866758)
-
-<a href="https://star-history.com/#Flowseal/zapret-discord-youtube&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Flowseal/zapret-discord-youtube&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Flowseal/zapret-discord-youtube&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Flowseal/zapret-discord-youtube&type=Date" />
- </picture>
-</a>
 
 ## ⚖️Лицензирование
 
 Проект распространяется на условиях лицензии [MIT](https://github.com/Flowseal/zapret-discord-youtube/blob/main/LICENSE.txt)
-
-## 🩷Благодарность участникам проекта
-
-[![Contributors](https://contrib.rocks/image?repo=Flowseal/zapret-discord-youtube)](https://github.com/Flowseal/zapret-discord-youtube/graphs/contributors)
-
-💖 Отдельная благодарность разработчику [zapret](https://github.com/bol-van/zapret) - [bol-van](https://github.com/bol-van)
